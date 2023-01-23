@@ -1,3 +1,32 @@
-#container {
-  background-color: blue;
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+header {
+  height: 90px;
+  background: black;
+}
+
+/* .inner-width {
+  max-width: 100px;
+  padding: 0 10px;
+  margin: auto;
+} */
+
+.logo {
+  float: left;
+  padding: 27px 0;
+}
+
+.logo img {
+  height: 50px;
+}
+
+.search-bar {
+  float: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
